@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: "poppins" , sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(14, 14, 14);
+}
+
+h1{
+  color: rgb(243, 243, 243);
+  margin-top: 2em;
+  text-align: center;
+  font-size: 2em;
+}
+
+input {
+  font-size: 1.5em;
+  color: rgb(243, 243, 243);
+  background-color: rgb(26, 26, 26);
+  border: none;
+  width: 15em;
+  height: 2em;
+  padding-right: 1em;
+  padding-left: 0.5em;
+  transition: 0.15s;
+  margin-top: 1em;
+  border-radius: 0.2em;
+}
+
+input:focus {
+  padding-left: 0.8em;
+  outline: none;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.wrapper {
+  margin: auto;
+  margin-top: 8em;
+  display: grid;
+  place-items: center;
+  width: 50em;
+  height: 30em;
+  background-color: rgb(40, 40, 40);
+  
+}
+
+.res{
+  margin-bottom: 6em;
+}
+
+h2{
+  font-size: 1.3em;
+  padding-right: 3em;
+  color: white;
+  font-weight: 300;
+}
+
+button {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 1.8em;
+  font-weight: 700;
+  padding: 0.25em 5em;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin-bottom: 1em;
+}
+
+button:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+button:hover {
+  background-color: #2c974b;
+}
+
+button:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+
+button:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+span {
+  font-weight: 700;
+  font-size: 1.5em;
+}
